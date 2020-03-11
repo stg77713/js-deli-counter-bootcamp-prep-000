@@ -14,3 +14,7 @@ function nowServing(lineOfPeople){
     return `Currently serving ${lineOfPeople.shift()}.`;
   }
 }
+
+function currentLine(lineOfPeople){
+  retu
+}
