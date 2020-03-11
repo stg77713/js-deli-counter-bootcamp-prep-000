@@ -16,5 +16,9 @@ function nowServing(lineOfPeople){
 }
 
 function currentLine(lineOfPeople){
-  retu
+  let i = 0;
+  while (i < lineOfPeople.length){
+    i++;
+  }
+  if ()
 }
