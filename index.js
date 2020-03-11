@@ -20,5 +20,9 @@ function currentLine(lineOfPeople){
   while (i < lineOfPeople.length){
     i++;
   }
-  if ()
+  if (lineOfPeople.length === 0){
+    return "The line is currently empty."
+  }else{
+    return 
+  }
 }
