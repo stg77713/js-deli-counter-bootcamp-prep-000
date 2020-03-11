@@ -11,6 +11,6 @@ function nowServing(lineOfPeople){
   if (lineOfPeople.length === 0){
     return "There is nobody waiting to be served!"
   }else {
-    return `Currently serving ${lineOfPeople}`
+    return `Currently serving ${lineOfPeople[0]}, ${lineOfPeople[1]}, ${lineOfPeople[2]}`
   }
 }
