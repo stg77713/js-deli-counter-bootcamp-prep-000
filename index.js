@@ -5,6 +5,8 @@ function takeANumber(lineOfPeople, newName){
 
 function nowServing(lineOfPeople){
   let i = 0;
-  while (i < lineOfPeople.length)
+  while (i < lineOfPeople.length){
+    i++;
+  }
   
 }
