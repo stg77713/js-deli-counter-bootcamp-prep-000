@@ -18,12 +18,12 @@ function nowServing(lineOfPeople){
 function currentLine(lineOfPeople){
   let i = 0;
   while (i < lineOfPeople.length){
-    line.push(` ` + [i + 1] + `.` + )
+    line.push(` ` + [i + 1] + `.` + lineOfPeople[i])
     i++;
   }
   if (lineOfPeople.length === 0){
     return "The line is currently empty."
   }else{
-    return 
+    return `The line is
   }
 }
