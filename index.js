@@ -8,5 +8,9 @@ function nowServing(lineOfPeople){
   while (i < lineOfPeople.length){
     i++;
   }
-  
+  if (lineOfPeople.length === 0){
+    return "There is nobody waiting to be served!"
+  }else {
+    return `Currently serving ${lineOfPeople}`
+  }
 }
