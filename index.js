@@ -20,7 +20,7 @@ var line = [];
 function currentLine(lineOfPeople){
   let i = 0;
   while (i < lineOfPeople.length){
-    line.push(`` + [i + 1] + `.` + lineOfPeople[i])
+    line.push(` ` + [i + 1] + `. ` + lineOfPeople[i])
     i++;
   }
   if (lineOfPeople.length === 0){
