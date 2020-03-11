@@ -4,6 +4,7 @@ function takeANumber(lineOfPeople, newName){
 }
 
 function nowServing(lineOfPeople){
-  return lineOfPeople[0];
+  let i = 0;
+  
   
 }
