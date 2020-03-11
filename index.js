@@ -18,7 +18,7 @@ function nowServing(lineOfPeople){
 function currentLine(lineOfPeople){
   let i = 0;
   while (i < lineOfPeople.length){
-    line.push(` `)
+    line.push(` ` + [i + 1] + )
     i++;
   }
   if (lineOfPeople.length === 0){
